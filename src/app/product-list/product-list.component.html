@@ -1,9 +1,5 @@
-<div class="row">
-    <ul>
-      <li *ngFor="let product of products">
-        <div class="col-sm-5">
-          <span>{{product.albumName}}</span>
-        </div>
-      </li>
-    </ul>
-  </div>
+<ul>
+  <li *ngFor="let product of products">
+    {{product.albumName}}
+  </li>
+</ul>
